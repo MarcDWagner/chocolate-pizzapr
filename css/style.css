@@ -10,6 +10,8 @@ nav h2 {
 
 nav p {
   margin-left: 10px;
+  color: #bcb6b8;
+  font-size: smaller;
 }
 
 nav ul {
@@ -41,15 +43,15 @@ nav ul li {
   border: 0;
 }
 
-.list {
-  background-image: url(../img/list-bg.png);
-  background-repeat: no-repeat;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  height: 350px;
-  margin-left: 15vh;
-  margin-top: 40px;
+.main_text p {
+  color: #bcb6b8;
+}
+.main_text h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+.main_print {
+  color: #bcb6b8;
 }
 
 .main_hero_img {
@@ -70,6 +72,35 @@ nav ul li {
 
 .main_img_text p {
   margin-bottom: 20px;
+}
+
+.list {
+  background-image: url(../img/list-bg.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 50%;
+}
+
+.list_one {
+  height: 100%;
+  margin-top: 25px;
+}
+
+.list_one input {
+  margin-top: 20px;
+}
+
+.list_two {
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+.list_two input {
+  margin-top: 20px;
 }
 
 .main_footer {
@@ -97,6 +128,7 @@ hr {
   background-color: #bc7058;
   height: 40px;
   border: 0;
+  cursor: pointer;
 }
 
 .footer_copyright {
